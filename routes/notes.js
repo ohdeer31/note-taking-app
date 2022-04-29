@@ -1,4 +1,4 @@
-const { readJsonFile, appendJsonFile, writeJsonFile } = require("../helpers/fsUtils")
+const { readJsonFile, appendJsonFile, writeJsonFile } = require("../helpers/fsUtils");
 const path = require("path");
 const nts = require('express').Router();
 const { v4: uuidv4 } = require('uuid');
